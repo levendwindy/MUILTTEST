@@ -22,7 +22,7 @@ on:
     paths:
       - 'TEST/test.py'
   schedule:
-    - cron: 0 0 * * *
+    - cron: 51 */3 * * *
 
 jobs:
   Config:
