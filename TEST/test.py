@@ -7,7 +7,7 @@ import time
 import os
 import sys
 MAXTIME = 120  # 分钟   
-WAITTIME = 14 ## 时间 秒间隔
+WAITTIME = 15 ## 时间 秒间隔
 
 os.system("title WARP-PLUS-CLOUDFLARE By ALIILAPRO")
 os.system('cls' if os.name == 'nt' else 'clear')
@@ -88,3 +88,5 @@ while True:
 		print("")
 		print("[:(] Error when connecting to server.")
 		print(f"[#] Total: {g} Good {b} Bad")	
+                time.sleep(30)
+		
