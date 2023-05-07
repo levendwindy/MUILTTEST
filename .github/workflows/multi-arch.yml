@@ -21,8 +21,8 @@ on:
   push:
     paths:
       - 'TEST/test.py'
-  schedule:
-    - cron: 51 */3 * 4,5 *
+ # schedule:
+  #  - cron: 51 */3 * 4,5 *
 
 jobs:
   Config:
