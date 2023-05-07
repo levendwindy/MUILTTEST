@@ -88,5 +88,6 @@ while True:
 		print("")
 		print("[:(] Error when connecting to server.")
 		print(f"[#] Total: {g} Good {b} Bad")	
-                time.sleep(30)
+		time.sleep(30)
+
 		
